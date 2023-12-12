@@ -1,67 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sudesh Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;700&display=swap" rel="stylesheet">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            background-color: blue;
-            color: white;
-            font-family: 'Poppins', sans-serif;
-        }
-        
-        nav{
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            height: 80px;
-            background-color: rgb(4, 4, 46);
-        }
-        nav ul{
-            display: flex;
-            justify-content: center;
-
-        }
-        nav ul li{
-            list-style: none;
-            margin: 0 23px;
-        }
-        .left{
-            font-size: 1.5rem;
-        }
-    </style>
+    <title>Sudesh || Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
-
 <body>
-
+    <!-- header site -->
     <header>
-        <nav>
-            <div class="left">Sudesh's portfolio</div>
-            <dev class="right">
-                <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Past Project</li>
-                    <li>Contact Me</li>
-                </ul>
-            </dev>
-
-        </nav>
+        <div class="logo"><span>S</span>udesh</div>
+        <ul class="navlist">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div id="menu-icon" class="bx bx-menu"></div>
     </header>
-    <main>
-        <section>class="first"</section>
 
-    </main>
+    <!-- home section -->
+    <section id="home" class="home">
+        <div class="home-content">
+            <h1>Hi I'm Sudesh Mainali</h1>
+            <div class="change-text">
+                <h3>And i'm</h3>
+                <h3>
+                    <span class="word">Youtuber</span>
+                    <span class="word">Web Designer</span>
+                    <span class="word">Frontend Development</span>
+                    <span class="word">UX/UI Developer</span>
+                    <span class="word">Graphic Designer</span>
+                </h3>
+            </div>
+
+            <p>Product Designer And Degital Creative Director working in design field for 1 years so far.specialized in UX/UI, Branding and degital designs.</p>
+
+            <dev class="info-box">
+                <div class="email-info">
+                    <h5>Email :</h5>
+                    <span>sudeshmainali@gmail.com</span>
+                </div>
+                <div class="webite-info">
+                    <h5>Website :</h5>
+                    <span>sudeshmainali.com.np</span>
+                </div>
+            </dev>
+            <div class="btn-box">
+                <a href="#" class="btn">Download CV</a>
+                <a href="#" class="btn">Hire Me Now!</a>
+            </div>
+
+            <div class="social-icon">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-instagram' ></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+                <a href="#"><i class='bx bxl-linkedin' ></i></a>
+            </div>
+        </div>
+    </section>
+
+
+
 </body>
-
 </html>
