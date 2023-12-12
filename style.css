@@ -89,3 +89,17 @@ span{
     color: var(--secon-bg-color);
     display: none;
 }
+
+section{
+    padding: 100px 10%;
+}
+
+.home{
+    min-height: 100lvh;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    grid-gap: 4em;
+}
