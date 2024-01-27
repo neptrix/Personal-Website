@@ -267,7 +267,7 @@
         background: url("../img/portrait_small.jpg");
         background-size: cover;
         background-position: center;
-        filter: blur(10px);
+        /* filter: blur(10px); */
         z-index: -1;
         width: 150px;
         height: 150px;
