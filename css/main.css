@@ -259,12 +259,20 @@
       transform: translate3d(-100%, 0, 0);
       font-size: 24px; }
     .menu-branding {
+      position: relative;
       height: 25vh;
+      overflow: hidden;
       transform: translate3d(100%, 0, 0); }
       .menu-branding .portrait {
         background: url("../img/portrait_small.jpg");
+        background-size: cover;
+        background-position: center;
+        filter: blur(10px);
+        z-index: -1;
         width: 150px;
-        height: 150px; }
+        height: 150px;
+        
+     }
     .about-info {
       grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
       grid-template-columns: 1fr; }
