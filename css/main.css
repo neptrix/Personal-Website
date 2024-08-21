@@ -106,8 +106,8 @@
     font-family: 'Poppins';
     line-height: 1.5; }
     body#bg-img {
-      background: url(../img/background.jpg);
-      background: rgba(68, 68, 68, 0.9), url(../img/background.jpg);
+      background: url(../img/back.jpg);
+      background: rgba(68, 68, 68, 0.9), url(../img/back.jpg);
       background-attachment: fixed;
       background-size: cover;
       } 
