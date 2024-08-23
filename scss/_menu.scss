@@ -1,19 +1,17 @@
-// Menu Button
+/* Menu button styling */
 .menu-btn {
-  position: absolute;
-  z-index: 3;
-  right: 35px;
-  top: 35px;
+  display: flex;
+  flex-direction: column;
   cursor: pointer;
-  @include easeOut;
+  margin-bottom: 20px;
+}
 
-  .btn-line {
-    width: 28px;
-    height: 3px;
-    margin: 0 0 5px 0;
-    background: set-text-color($primary-color);
-    @include easeOut;
-  }
+.menu-btn .btn-line {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 4px 0;
+}
 
   // Rotate Into X With Menu Lines
   &.close {
@@ -36,46 +34,52 @@
       }
     }
   }
-}
+
 
 // Menu Overlay
+/* Menu styling */
 .menu {
-  position: fixed;
-  top: 0;
   width: 100%;
-  opacity: 0.9;
-  visibility: hidden;
+  text-align: center;
+}
 
-  &.show {
-    visibility: visible;
-  }
+.menu-branding {
+  margin-bottom: 20px;
+}
 
-  &-branding,
-  &-nav {
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-    justify-content: center;
-    float: left;
-    width: 50%;
-    height: 100vh;
-    overflow: hidden;
-  }
+.portrait {
+  width: 100px;
+  height: 100px;
+  background-color: #555; /* Placeholder color for portrait */
+  border-radius: 50%;
+  margin: 0 auto;
+}
 
-  &-nav {
-    margin: 0;
-    padding: 0;
-    background: darken($primary-color, 5);
-    list-style: none;
-    transform: translate3d(0, -100%, 0);
-    @include easeOut;
+/* Navigation menu styling */
+.menu-nav {
+  list-style: none;
+  padding-left: 0;
+}
 
-    &.show {
-      // Slide in from top
-      transform: translate3d(0, 0, 0);
-    }
-  }
+.nav-item {
+  margin: 15px 0;
+}
 
+.nav-link {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #f0f0f0; /* Slightly lighter color on hover */
+}
+
+/* Active/current item styling */
+.nav-item.current .nav-link {
+  color: #ff6347; /* Different color for the active page */
+}
   // Branding Side
   &-branding {
     background: $primary-color;
@@ -125,7 +129,7 @@
       color: $secondary-color;
     }
   }
-}
+
 
 // Delay each nav item slide by 0.1s
 @for $x from 1 through 4 {

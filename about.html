@@ -2,118 +2,132 @@
 <html lang="en">
 
 <head>
+  <!-- Metadata for the page -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-    crossorigin="anonymous">
 
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" 
+    integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+  <!-- Main stylesheet -->
   <link rel="stylesheet" href="css/main.css">
+  
+  <!-- Favicon for the browser tab -->
+  <link rel="icon" type="image/x-icon" href="/img/projects/favicon.ico">
+
+  <!-- Page title -->
   <title>About Me</title>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7144643590925292"
-     crossorigin="anonymous"></script>
+  <!-- Favicon for the browser tab -->
+  <link rel="icon" type="image/x-icon" href="/img/projects/favicon.ico">
+
+  <!-- Google AdSense script -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7144643590925292" 
+    crossorigin="anonymous"></script>
 </head>
 
 <body>
+  <!-- Header section with navigation menu -->
   <header>
+    <!-- Menu button (three lines) -->
     <div class="menu-btn">
       <div class="btn-line"></div>
       <div class="btn-line"></div>
       <div class="btn-line"></div>
     </div>
 
+    <!-- Navigation menu -->
     <nav class="menu">
+      <!-- Branding section -->
       <div class="menu-branding">
         <div class="portrait"></div>
       </div>
+      <!-- Navigation links -->
       <ul class="menu-nav">
         <li class="nav-item">
-          <a href="index.html" class="nav-link">
-            Home
-          </a>
+          <a href="index.html" class="nav-link">Home</a>
         </li>
         <li class="nav-item current">
-          <a href="about.html" class="nav-link">
-            About Me
-          </a>
+          <a href="about.html" class="nav-link">About Me</a>
         </li>
         <li class="nav-item">
-          <a href="work.html" class="nav-link">
-            My Work
-          </a>
+          <a href="work.html" class="nav-link">My Work</a>
         </li>
         <li class="nav-item">
-          <a href="contact.html" class="nav-link">
-            How To Reach Me
-          </a>
+          <a href="contact.html" class="nav-link">How To Reach Me</a>
         </li>
       </ul>
+      
     </nav>
+    <button id="home-button" onclick="window.location.href='index.html'">
+      <i class="fas fa-home"></i> Home
+    </button>
   </header>
 
+  <!-- Main content section -->
   <main id="about">
+    <!-- Page heading -->
     <h1 class="lg-heading">
-      About
-      <span class="text-secondary">Me</span>
+      About <span class="text-secondary">Me</span>
     </h1>
-    <h2 class="sm-heading">
-      Let me tell you a few things...
-    </h2>
+    <h2 class="sm-heading">Let me tell you a few things...</h2>
+
+    <!-- About information grid -->
     <div class="about-info">
+      <!-- Profile image -->
       <img src="img/portrait.jpg" alt="John Doe" class="bio-image">
 
+      <!-- Bio section -->
       <div class="bio">
         <h3 class="text-secondary">BIO</h3>
-        <p style="text-align: justify;">A seasoned Website Designer and Developer proficient in a comprehensive array of 
-          design tools and coding languages. Skilled in Adobe Creative Suite, HTML, CSS, 
-          JavaScript, and responsive design principles. Known for seamlessly translating concepts 
-          into visually stunning websites, combining technical expertise with creative flair. Proven 
-          collaborator, adept at understanding client needs and delivering innovative solutions for 
-          optimized web presence across diverse platforms. Meticulous attention to detail and a 
-          track record of elevating projects through dynamic website design and development.</p>
+        <p style="text-align: justify;">
+          A seasoned Website Designer and Developer proficient in a comprehensive array of design tools and coding languages. 
+          Skilled in Adobe Creative Suite, HTML, CSS, JavaScript, and responsive design principles. Known for seamlessly translating 
+          concepts into visually stunning websites, combining technical expertise with creative flair. Proven collaborator, adept at 
+          understanding client needs and delivering innovative solutions for optimized web presence across diverse platforms. 
+          Meticulous attention to detail and a track record of elevating projects through dynamic website design and development.
+        </p>
       </div>
 
+      <!-- Work Experience -->
       <div class="job job-1">
         <h3>Digital Trends Agency</h3>
         <h6>Web Design Intern</h6>
         <p style="text-align: justify;">
-          As a web design intern, one would use HTML to structure web pages, CSS for styling and formatting elements, and JavaScript for interactivity 
-          and dynamic content. Familiarity with tools such as Visual Studio Code and Adobe Creative Cloud (e.g., Photoshop, Illustrator) for coding and 
-          graphic design, Git for version control, and responsive design testing with browser tools is essential. Additionally, knowledge of CLI, task 
-          runners (e.g., Gulp), and CMS platforms (e.g., WordPress) may be valuable for the role.</p>
+          As a web design intern, I used HTML to structure web pages, CSS for styling and formatting elements, and JavaScript 
+          for interactivity and dynamic content. I also utilized tools like Visual Studio Code, Adobe Creative Cloud (Photoshop, 
+          Illustrator), Git for version control, and CMS platforms like WordPress.
+        </p>
       </div>
 
       <div class="job job-2">
         <h3>WebCraft Solutions</h3>
         <h6>Front End Developer</h6>
         <p style="text-align: justify;">
-          As a front-end developer, primarily use HTML for structuring web content, CSS for styling and formatting, 
-          and JavaScript for adding interactivity and dynamic behavior to websites. Front-end frameworks like React, Angular, 
-          or Vue.js are often employed for efficient UI development, while responsive design techniques and frameworks such as
-           Bootstrap ensure adaptability across various devices. Code editors like Visual Studio Code, version control tools like Git, 
-           and collaboration platforms like GitHub facilitate coding processes. Additionally, knowledge of web browsers, package managers 
-           (e.g., npm), build tools (e.g., Webpack), and web performance optimization tools (e.g., Lighthouse) is crucial for creating modern, 
-           user-friendly, and high-performance websites.</p>
+          As a front-end developer, I worked with HTML, CSS, and JavaScript to create interactive websites. I used front-end frameworks 
+          like React and Bootstrap for responsive design, and tools like Visual Studio Code, Git, and Webpack for efficient development.
+        </p>
       </div>
 
       <div class="job job-3">
         <h3>W.P Solutions Pvt. Ltd.</h3>
         <h6>FullStack Developer</h6>
         <p style="text-align: justify;">
-          As a full-stack developer, working with a combination of front-end technologies, such as HTML, CSS, and JavaScript frameworks like React or Angular, 
-          for building interactive user interfaces, and back-end technologies, including server-side languages like Node.js, Python with frameworks like Flask 
-          or Django, Java with Spring, or PHP with Laravel, to handle server-side logic and interact with databases like MySQL, PostgreSQL, or MongoDB. Utilizing
-           Git for version control, deploying applications using containerization tools like Docker, and may leveraging cloud platforms such as AWS, Azure, 
-           or Google Cloud for hosting. Additionally, using testing frameworks like Jest for JavaScript, JUnit for Java, and pytest for Python, ensuring the 
-           reliability of code, while collaborating with teams through platforms like GitHub, GitLab, and communication tools like Slack or Microsoft Teams.</p>
+          As a full-stack developer, I worked with both front-end (HTML, CSS, JavaScript frameworks) and back-end technologies 
+          (Node.js, Python, Java, PHP) to build complete web applications. I used databases like MySQL, Git for version control, 
+          Docker for containerization, and cloud platforms like AWS for hosting.
+        </p>
       </div>
     </div>
   </main>
 
+  <!-- Footer section -->
   <footer id="main-footer">
     Copyright &copy; 2023
   </footer>
 
+  <!-- Main JavaScript file -->
   <script src="js/main.js"></script>
 </body>
 

@@ -2,130 +2,135 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-    crossorigin="anonymous">
-
+  <!-- Metadata for the document -->
+  <meta charset="UTF-8"> <!-- Character encoding for the page -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsive design settings -->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge"> <!-- Compatibility with Internet Explorer -->
+  
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  
+  <!-- Custom CSS -->
   <link rel="stylesheet" href="css/main.css">
+  
+  <!-- Favicon for the browser tab -->
+  <link rel="icon" type="image/x-icon" href="/img/projects/favicon.ico">
+  
+  <!-- Page Title -->
   <title>View My Work</title>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7144643590925292"
-     crossorigin="anonymous"></script>
+  
+  <!-- Google Ads Script (if applicable) -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7144643590925292" crossorigin="anonymous"></script>
 </head>
 
 <body>
+  <!-- Header Section -->
   <header>
+    <!-- Menu Button (for mobile view) -->
     <div class="menu-btn">
       <div class="btn-line"></div>
       <div class="btn-line"></div>
       <div class="btn-line"></div>
     </div>
 
+    <!-- Navigation Menu -->
     <nav class="menu">
       <div class="menu-branding">
         <div class="portrait"></div>
       </div>
       <ul class="menu-nav">
-        <li class="nav-item">
-          <a href="index.html" class="nav-link">
-            Home
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="about.html" class="nav-link">
-            About Me
-          </a>
-        </li>
-        <li class="nav-item current">
-          <a href="work.html" class="nav-link">
-            My Work
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="contact.html" class="nav-link">
-            How To Reach Me
-          </a>
-        </li>
+        <!-- Navigation Links -->
+        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="about.html" class="nav-link">About Me</a></li>
+        <li class="nav-item current"><a href="work.html" class="nav-link">My Work</a></li>
+        <li class="nav-item"><a href="contact.html" class="nav-link">How To Reach Me</a></li>
       </ul>
     </nav>
+    <button id="home-button" onclick="window.location.href='index.html'">
+      <i class="fas fa-home"></i> Home
+    </button>
   </header>
 
+  <!-- Main Content -->
   <main id="work">
-    <h1 class="lg-heading">
-      My
-      <span class="text-secondary">Work</span>
-    </h1>
-    <h2 class="sm-heading">
-      Check out some of my projects...
-    </h2>
+    <h1 class="lg-heading">My <span class="text-secondary">Work</span></h1>
+    <h2 class="sm-heading">Check out some of my projects...</h2>
+    
+    <!-- Projects Section -->
     <div class="projects">
+      <!-- Project Item 1 -->
       <div class="item">
         <a href="#!">
-            <img src="img/projects/moon.jpg" alt="Project">
+          <img src="img/projects/moon.jpg" alt="Project">
         </a>
         <a href="#" class="btn-light">
-            <i class="fas fa-eye"></i> Project
+          <i class="fas fa-eye"></i> Project
         </a>
         <a href="https://github.com/neptrix/pgrp" class="btn-dark" target="_blank">
-            <i class="fab fa-github"></i> Github
+          <i class="fab fa-github"></i> Github
         </a>
       </div>
-    
-      <div class="item">
-          <a href="#!">
-              <img src="img/projects/bmi.jpg" alt="Project">
-          </a>
-          <a href="#" class="btn-light">
-              <i class="fas fa-eye"></i> Project
-          </a>
-          <a href="https://github.com/neptrix/BMI-Calculator" class="btn-dark" target="_blank">
-              <i class="fab fa-github"></i> Github
-          </a>
-      </div>
-  
+      
+      <!-- Project Item 2 -->
       <div class="item">
         <a href="#!">
-            <img src="img/projects/fun.jpg" alt="Project">
+          <img src="img/projects/bmi.jpg" alt="Project">
         </a>
         <a href="#" class="btn-light">
-            <i class="fas fa-eye"></i> Project
+          <i class="fas fa-eye"></i> Project
+        </a>
+        <a href="https://github.com/neptrix/BMI-Calculator" class="btn-dark" target="_blank">
+          <i class="fab fa-github"></i> Github
+        </a>
+      </div>
+      
+      <!-- Project Item 3 -->
+      <div class="item">
+        <a href="#!">
+          <img src="img/projects/fun.jpg" alt="Project">
+        </a>
+        <a href="#" class="btn-light">
+          <i class="fas fa-eye"></i> Project
         </a>
         <a href="https://2023funolympic.wixsite.com/funolympic2023" class="btn-dark" target="_blank">
-            Wix.com
+          Wix.com
         </a>
       </div>
-    
+      
+      <!-- Project Item 4 -->
       <div class="item">
         <a href="#!">
-            <img src="img/projects/comming-soon1.jpg" alt="Project">
+          <img src="img/projects/comming-soon1.jpg" alt="Project">
         </a>
         <a href="#" class="btn-light">
-            <i class="fas fa-eye"></i> Project
+          <i class="fas fa-eye"></i> Project
         </a>
         <a href="coming-soon1.html" class="btn-dark" target="_blank">
-            <i class="fab fa-github"></i> Github
+          <i class="fab fa-github"></i> Github
         </a>
       </div>
-    
+      
+      <!-- Project Item 5 -->
       <div class="item">
         <a href="#!">
-            <img src="img/projects/comming-soon1.jpg" alt="Project">
+          <img src="img/projects/comming-soon1.jpg" alt="Project">
         </a>
         <a href="#" class="btn-light">
-            <i class="fas fa-eye"></i> Project
+          <i class="fas fa-eye"></i> Project
         </a>
         <a href="coming-soon1.html" class="btn-dark" target="_blank">
-            <i class="fab fa-github"></i> Github
+          <i class="fab fa-github"></i> Github
         </a>
       </div>
     </div>
   </main>
 
+  <!-- Footer Section -->
   <footer id="main-footer">
     Copyright &copy; 2023
   </footer>
 
+  <!-- JavaScript -->
   <script src="js/main.js"></script>
 </body>
 

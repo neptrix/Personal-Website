@@ -1,64 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-    crossorigin="anonymous">
+  <!-- Metadata for the document -->
+  <meta charset="UTF-8"> <!-- Character encoding -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsive design settings -->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge"> <!-- Compatibility with Internet Explorer -->
 
+  <!-- Favicon for the browser tab -->
+  <link rel="icon" type="image/x-icon" href="/img/projects/favicon.ico">
+  
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  
+  <!-- Custom CSS -->
   <link rel="stylesheet" href="css/main.css">
+  
+  <!-- Page Title -->
   <title>Contact Me</title>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7144643590925292"
-     crossorigin="anonymous"></script>
+  
+  <!-- Google Ads Script -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7144643590925292" crossorigin="anonymous"></script>
 </head>
-
 <body>
+  <!-- Header Section -->
   <header>
+    <!-- Menu Button (for mobile view) -->
     <div class="menu-btn">
       <div class="btn-line"></div>
       <div class="btn-line"></div>
       <div class="btn-line"></div>
     </div>
 
+    <!-- Navigation Menu -->
     <nav class="menu">
       <div class="menu-branding">
         <div class="portrait"></div>
       </div>
       <ul class="menu-nav">
-        <li class="nav-item">
-          <a href="index.html" class="nav-link">
-            Home
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="about.html" class="nav-link">
-            About Me
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="work.html" class="nav-link">
-            My Work
-          </a>
-        </li>
-        <li class="nav-item current">
-          <a href="contact.html" class="nav-link">
-            How To Reach Me
-          </a>
-        </li>
+        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="about.html" class="nav-link">About Me</a></li>
+        <li class="nav-item"><a href="work.html" class="nav-link">My Work</a></li>
+        <li class="nav-item current"><a href="contact.html" class="nav-link">How To Reach Me</a></li>
       </ul>
     </nav>
+    <button id="home-button" onclick="window.location.href='index.html'">
+      <i class="fas fa-home"></i> Home
+    </button>
   </header>
 
+  <!-- Main Content -->
   <main id="contact">
-    <h1 class="lg-heading">
-      Contact
-      <span class="text-secondary">Me</span>
-    </h1>
-    <h2 class="sm-heading">
-      This is how you can reach me...
-    </h2>
+    <h1 class="lg-heading">Contact <span class="text-secondary">Me</span></h1>
+    <h2 class="sm-heading">This is how you can reach me...</h2>
     <div class="boxes">
       <div>
         <span class="text-secondary">Email: </span> sudeshmainali@gmail.com
@@ -67,18 +60,17 @@
         <span class="text-secondary">Phone: </span> +977 9861236703
       </div>
       <div>
-        <span class="text-secondary">Book a call:
-            <a href="https://calendly.com/sudeshmainali/for-any-projects" target="_blank">Calendly</a>
-        </span>
-    </div>
+        <span class="text-secondary">Book a call: <a href="https://calendly.com/sudeshmainali/for-any-projects" target="_blank">Calendly</a></span>
+      </div>
     </div>
   </main>
 
+  <!-- Footer Section -->
   <footer id="main-footer">
     Copyright &copy; 2023
   </footer>
 
+  <!-- Custom JavaScript -->
   <script src="js/main.js"></script>
 </body>
-
 </html>
